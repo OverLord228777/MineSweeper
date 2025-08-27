@@ -123,10 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="LeaderBoard.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test1.txt" />
+    <Text Include="func.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeaderBoard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Records.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
