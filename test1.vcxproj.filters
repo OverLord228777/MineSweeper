@@ -18,10 +18,26 @@
     <ClCompile Include="main.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaderBoard.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test1.txt">
+    <Text Include="func.h">
       <Filter>Header Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeaderBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Records.csv">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
